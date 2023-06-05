@@ -1,0 +1,88 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+h1 {
+	margin: 0;
+}
+nav {
+	background-color: #f2f2f2;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	transition: all 0.5s ease-in-out;
+}
+nav.sticky {
+	position: fixed;
+	top: 0;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+nav a {
+	color: #333;
+	display: inline-block;
+	margin: 0 10px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #fff;
+	background-color: #333;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+nav .icon {
+	display: none;
+}
+section {
+	padding: 5px;
+	text-align: center;
+	margin-top: 10px;
+}
+.card {
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	margin: 10px;
+	padding: 20px;
+	width: 250px;
+	display: inline-block;
+	vertical-align: top;
+}
+.card h2 {
+	margin-top: 0;
+}
+.card p {
+	line-height: 1.5;
+}
+.card img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+@media screen and (max-width: 600px) {
+	nav a {
+		display: none;
+	}
+	nav .icon {
+		display: inline-block;
+	}
+	nav.responsive a {
+		display: block;
+		text-align: left;
+		padding: 10px;
+		border-top: 1px solid #333;
+	}
+}

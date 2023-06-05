@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles.css">
+</head>
+<body>
+	<header>
+		<h1>My Portfolio</h1>
+	</header>
+	<nav id="navbar">
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#portfolio">Portfolio</a>
+		<a href="#contact">Contact</a>
+		<a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</nav>
+	<section id="home">
+		<h2>Welcome to My Portfolio</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, enim sed auctor pretium, diam lorem aliquam risus, quis convallis arcu magna vel lectus. Sed ac mauris sapien. Maecenas euismod, velit a aliquet mollis, nulla urna blandit ipsum, eu commodo arcu ipsum eu metus.</p>
+	</section>
+	<section id="about">
+		<h2>About Me</h2>
+		<p>Phasellus orci dui, bibendum vel consequat vel, commodo non turpis. Duis ipsum risus, ullamcorper quis tristique eget, tincidunt quis neque. Praesent vel mollis enim. Donec ut ipsum vel libero vulputate bibendum.</p>
+	</section>
+	<section id="portfolio">
+		<h2>My Portfolio</h2>
+		<div class="card">
+			<img src="./assets/project1.jpg" alt="Project 1">
+			<h3>Project 1</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci dui, bibendum vel consequat vel, commodo non turpis.</p>
+		</div>
+		<div class="card">
+			<img src="./assets/project2.jpg" alt="Project 2">
+			<h3>Project 2</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci dui, bibendum vel consequat vel, commodo non turpis.</p>
+		</div>
+		<div class="card">
+			<img src="./assets/project3.jpg" alt="Project 3">
+			<h3>Project 3</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus orci dui, bibendum vel consequat vel, commodo non turpis.</p>
+		</div>
+	</section>
+	<section id="contact">
+		<h2>Contact Me</h2>
+		<p>Email: myemail@example.com<br>Phone: 555-555-5555</p>
+	</section>
+	<footer>
+		<p>&copy;2023 My Portfolio</p>
+	</footer>
+    <script type="text/javascript" src="./assets/stickyNavBar.js"></script>
+</body>
+</html>
